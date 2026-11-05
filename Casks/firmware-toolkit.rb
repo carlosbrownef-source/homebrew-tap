@@ -1,16 +1,16 @@
-cask "u2c-customfw" do
+cask "firmware-toolkit" do
   version "0.1.1"
   sha256 "299f1585ceb48857a29a7f066d2f7dc2e8e401e3327d54bb4501d34b5c778607"
 
-  url "https://github.com/carlosbrownef-source/u2c-customfw/releases/download/v#{version}/u2c-customfw-#{version}-macos-arm64.zip"
-  name "u2c-customfw"
+  url "https://github.com/carlosbrownef-source/8bitdo-ultimate-2c-toolkit/releases/download/v#{version}/firmware-toolkit-#{version}-macos-arm64.zip"
+  name "Firmware Toolkit"
   desc "Back up, patch and repair the 8BitDo Ultimate 2C Wireless firmware (1.09)"
-  homepage "https://github.com/carlosbrownef-source/u2c-customfw"
+  homepage "https://github.com/carlosbrownef-source/8bitdo-ultimate-2c-toolkit"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
 
-  app "u2c-customfw.app"
+  app "Firmware Toolkit.app"
 
   zap trash: [
     "~/Library/Caches/org.u2c-customfw.app",
