@@ -1,6 +1,6 @@
 cask "firmware-toolkit" do
-  version "0.2.0"
-  sha256 "a12cf41d90ea504522c59bbe149cc0b57d5a05a3ad003ff1cd7ac2c1dcc2dca4"
+  version "0.3.0"
+  sha256 "faf95549cc15d1c51a4b494614e4cdea233359c157c33f0a23e4990223973f13"
 
   url "https://github.com/carlosbrownef-source/8bitdo-ultimate-2c-toolkit/releases/download/v#{version}/firmware-toolkit-#{version}-macos-arm64.zip"
   name "Firmware Toolkit"
