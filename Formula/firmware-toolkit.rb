@@ -3,8 +3,8 @@ class FirmwareToolkit < Formula
 
   desc "Back up, patch and repair the 8BitDo Ultimate 2C Wireless firmware (1.09)"
   homepage "https://github.com/carlosbrownef-source/8bitdo-ultimate-2c-toolkit"
-  url "https://github.com/carlosbrownef-source/8bitdo-ultimate-2c-toolkit/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "ed7cae4f6044ebed3a5d4da7559e0a0721cd8d869368755e11091eff8bf7963e"
+  url "https://github.com/carlosbrownef-source/8bitdo-ultimate-2c-toolkit/archive/refs/tags/v1.0.3.tar.gz"
+  sha256 "336d54401f0905b8b24ec4d034675a0fd639514ef0e9f4a8049f644b01d7d117"
   license "GPL-3.0-or-later"
 
   depends_on :macos
